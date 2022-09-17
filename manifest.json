@@ -48,8 +48,8 @@
         "storage"
     ],
     "host_permissions": [
-        "http://*/*",
-        "https://*/*"
+        "https://leetcode.com/*",
+        "https://lettcode.cn/*"
     ],
     "web_accessible_resources": [
         {
@@ -61,5 +61,8 @@
                 "https://leetcode.com/*"
             ]
         }
-    ]
+    ],
+    "action": {
+        "default_popup": "lib/popup/popup.html"
+    }
 }
